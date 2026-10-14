@@ -6,7 +6,7 @@
 # Help() en funciones: como documentar funciones 
 # Creditos : adaptacion de JCSP basado en "Invent with python" ed4 - cap. 14
 # https://inventwithpython.com/invent4thed/chapter14.html
-# version : base + añadir Ñ
+# version : base por indices + añadir Ñ
 # Fecha JCSP 2024 11 13
 # Licencia : CC BY-NC-SA 4.0
 # https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es

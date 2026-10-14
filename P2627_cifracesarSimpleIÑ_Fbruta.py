@@ -1,11 +1,16 @@
-# Taller Programación y Robótica en Colegio Santo Domingo – 2024 -2025 - Clase 7
-# Resumen: Caesar Cipher
-# Topicos nuevos: Criptografia, cifrado cesar, listas
-# Creditos : adaptacion de JCSP basado en "Invent with python" ed4 - cap. 5
+# Taller Programación y Robótica CMM BML – 2026 -2027 - Clase xx
+# Nombre de programa :P2627_cifracesarSimpleI.py
+# Tema: Programacion Funcional - Caesar Cipher
+# Topicos nuevos: Criptografía y cifrados-> cifrado César + descifrado por fuerza bruta
+# El find() y otros métodos de cadena : rebanado, ..
+# Help() en funciones: como documentar funciones 
+# Creditos : adaptacion de JCSP basado en "Invent with python" ed4 - cap. 14
 # https://inventwithpython.com/invent4thed/chapter14.html
+# version : base  por indices + añadir Ñ + Descifrado por Fuerza bruta
 # Fecha JCSP 2024 11 13
 # Licencia : CC BY-NC-SA 4.0
 # https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es
+
 
 ALFABETO = 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZ'
 MAXCLAVE = len(ALFABETO)-1
