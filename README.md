@@ -1,4 +1,4 @@
-# 2627CLxx_Prog_Funcional_C_Cesar - <u>clase en borrador</u>
+# 2627CL02_Prog_Funcional_C_Cesar - <u>clase en borrador</u>
 
 2627CLxx 
 
