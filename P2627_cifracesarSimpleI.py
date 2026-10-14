@@ -10,7 +10,7 @@
 # Fecha JCSP 2024 11 13
 # Licencia : CC BY-NC-SA 4.0
 # https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es
-
+version = 'BASE por indices'
 ALFABETO = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 MAXCLAVE = len(ALFABETO)-1
 
@@ -67,6 +67,7 @@ def CambiaMensaje(mode, menEntrada, key):
 # --> El programa empieza aqui
 # 0- Presentacion
 print('PROGRAMA DE CIFRADO / DESCIFRADO CESAR') # 0- Presentacion
+print('Version ', version)
 # 1- preguntar modi cifrado / descifrado
 print('1-¿Quieres cifrar o descifrar?') 
 Modo = LeoModo()

@@ -47,11 +47,12 @@ Solo programación: Thonny en PC
 
 ### Programas usados en esta clase
 
-| Programa                                                                 | Objetivo                                                                | Tópicos cubiertos                                                                | Notas                                            |
-| ------------------------------------------------------------------------ | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------ |
-| [P2627_cifracesarSimpleI.py](P2627_cifracesarSimpleI.py)                 | Cifrado y descifrado cesar funcional                                    | Criptografía, Cifrado Cesar / Programacion Funcional / Cadenas acceso y rebanado | Programa BASE : cifrado / descifrado por índices |
-| [P2627_cifracesarSimpleIÑ.py](P2627_cifracesarSimpleIÑ.py)               | Añadir al alfabeto la letra Ñ                                           | idem / que significa **robustez** en un programa                                 | BASE + "Ñ"                                       |
-| [P2627_cifracesarSimpleIÑ_Fbruta.py](P2627_cifracesarSimpleIÑ_Fbruta.py) | Ver como la **Programación Funcional** facilita la repetición de codigo | Criptografía método fuerza bruta                                                 | BASE+Ñ+F bruta                                   |
+| Programa                                                                 | Objetivo                                                                                      | Tópicos cubiertos                                                                | Notas                                                 |
+| ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| [P2627_cifracesarSimpleI.py](P2627_cifracesarSimpleI.py)                 | Cifrado y descifrado cesar funcional                                                          | Criptografía, Cifrado Cesar / Programacion Funcional / Cadenas acceso y rebanado | Programa BASE I: cifrado / descifrado por índices     |
+| [P2627_cifracesarSimpleIÑ.py](P2627_cifracesarSimpleIÑ.py)               | Añadir al alfabeto la letra Ñ                                                                 | idem / que significa **robustez** en un programa                                 | BASE I + "Ñ"                                          |
+| [P2627_cifracesarSimpleIÑ_Fbruta.py](P2627_cifracesarSimpleIÑ_Fbruta.py) | Ver como la **Programación Funcional** facilita la repetición de codigo                       | Criptografía método fuerza bruta                                                 | BASE I +Ñ+F bruta                                     |
+| [P2627_cifracesarSimpleReba.py](P2627_cifracesarSimpleReba.py)           | Ver metodo alternativo de cifrado descifrado con Rebanado usando  cadena auxiliar "alfacrifra | Rebanado / codigo mas compacto                                                   | Programa BASE REBA: cifrado / descifrado por Rebanado |
 
 ---
 
@@ -77,8 +78,6 @@ El material  en pdf [Cifra Cesar Explicaciones](CCesar_explicaciones.pdf) cubre 
 
 - Añadir una letra como la "Ñ"
 - Descifrado por fuerza bruta
-
-
 
 ---
 
