@@ -42,7 +42,7 @@ def LeoClave():
     
     return key
 
-def CambiaMensaje(mode, mEntrada, key):
+def CambiaMensajeReb(mode, mEntrada, key):
     """Cifra o descifra el mesaje de entrada y lo retorna - modo rebanar
     - 3 parametros:
         * mode(str): 'c' para cifrado / 'd' para descifrado
@@ -78,5 +78,5 @@ MenEntrada = input('2-Escribe el mensaje a cifrar/descifrar : ')
 print('3-Escribe la clave Cesar de cifrado/descifrado')
 Clave = LeoClave()
 print('-> El texto de salida es:')
-MenSalida = CambiaMensaje(Modo, MenEntrada, Clave)
+MenSalida = CambiaMensajeReb((Modo, MenEntrada, Clave)
 print(MenSalida)

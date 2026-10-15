@@ -1,11 +1,17 @@
-# Taller Programación y Robótica en Colegio Santo Domingo – 2024 -2025 - Clase 7
-# Resumen: Caesar Cipher
-# Topicos nuevos: Criptografia, cifrado cesar, listas
+# Taller Programación y Robótica CMM BML – 2026 -2027 - Clase xx
+# Nombre de programa :P2627_cifracesarSimpleI.py
+# Tema: Progrmacion Funcional - Caesar Cipher
+# Topicos nuevos: Criptografía y cifrados-> cifrado César + descifrado por fuerza bruta
+# El find() y otros métodos de cadena : rebanado, ..
+# Help() en funciones: como documentar funciones 
 # Creditos : adaptacion de JCSP basado en "Invent with python" ed4 - cap. 14
 # https://inventwithpython.com/invent4thed/chapter14.html
+# version : base por REBANADO + "Ñ" + bloques de 5 letras en cifrado y descifrado
 # Fecha JCSP 2024 11 13
 # Licencia : CC BY-NC-SA 4.0
 # https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es
+
+version = 'BASE por REBANADO + "Ñ" + bloques de 5 letras'
 
 ALFABETO = 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZ'
 MAXCLAVE = len(ALFABETO)-1
@@ -34,7 +40,7 @@ def LeoClave():
     return key
 
 def CambiaMensajeReb(mode, menEntrada, key):
-    """Cifra o descifra en mesaje de entrada y lo retorna
+    """Cifra o descifra en mesaje de entrada y lo retorna - modo rebanar
     - 3 parametros:
         * mode(str): 'c' para cifrado / 'd' para descifrado
         * menEntrada(str): mensaje d eentrada
@@ -61,22 +67,16 @@ def CambiaMensajeReb(mode, menEntrada, key):
     return tSalida
 
 def bloques5Letras(mensaje):
-    """Cifra o descifra en mesaje de entrada y lo retorna
+    """Toma un texto y lo trocea en bloques de 5 letras y un espacio
     - 1 parametro:
-        * menensaje(str): mensaje de entrada
+        * mensaje(str): mensaje de entrada
     - Salida (str): mensaje pero en bloques de 5 letras
     """
-    LsinEspacios = mensaje.split()
-    MsinEspacios = "".join(LsinEspacios)
-    
-    tSalida = ""
-    for cuenta, letra in enumerate(MsinEspacios):
-        if cuenta % 5 == 0:
-            tSalida = tSalida + " " + letra
-        else:
-            tSalida = tSalida + letra
-    
+    MsinEspacios = mensaje.replace(" ","") # quita los espacios
+    tSalida = " ".join(MsinEspacios[i:i+5] for i in range(0, len(MsinEspacios), 5))
+
     return tSalida
+
     
     
 # FIN DE DEFINICION DE FUNCIONES
@@ -84,6 +84,7 @@ def bloques5Letras(mensaje):
 # --> El programa empieza aqui
 # 0- Presentacion
 print('PROGRAMA DE CIFRADO / DESCIFRADO CESAR') # 0- Presentacion
+print('Version ', version)
 # 1- preguntar modi cifrado / descifrado
 print('1-¿Quieres cifrar o descifrar?') 
 Modo = LeoModo()
